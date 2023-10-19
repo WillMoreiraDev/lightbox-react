@@ -71,7 +71,7 @@ export default function Home() {
           <div className='fixed inset-0 w-full h-full z-30 px-3 flex items-center justify-center bg-black bg-opacity-50 animate-fadeUp'>
             <button
               onClick={handleCloseLightbox}
-              className='absolute top-5 right-5 hover:opacity-70 transition-opacity ease-linear'
+              className='absolute top-5 right-5 hover:opacity-70 transition-opacity ease-linear text-zi'
             >
               <Image
                 src={Close}
